@@ -8,9 +8,9 @@ This project develops predictive models to identify customers likely to default 
 
 ### Key Features
 
-- **Predictive Modeling**: Logistic Regression and Random Forest models
-- **Comprehensive EDA**: 16 visualizations across 4 analysis categories
-- **Feature Engineering**: 20+ engineered features from payment behavior and collections history
+- **Predictive Modelling**: Logistic Regression and Random Forest models
+- **Comprehensive EDA**: 16 visualisations across 4 analysis categories
+- **Feature Engineering**: 20+ engineered features from payment behaviour and collections history
 - **Business Intelligence**: SQL-based insights and segmentation analysis
 - **Actionable Outputs**: Risk-scored customer lists with recommended actions
 
@@ -25,9 +25,9 @@ This project develops predictive models to identify customers likely to default 
 
 - **8.4%** overall default rate across the portfolio
 - **Lower income customers** (<£15k) show significantly higher default rates
-- **Previous payment behavior** is the strongest predictor of future defaults
+- **Previous payment behaviour** is the strongest predictor of future defaults
 - **Direct Debit customers** have substantially lower default rates
-- **Seasonal patterns** exist in payment behavior
+- **Seasonal patterns** exist in payment behaviour
 
 ## 🛠️ Technical Stack
 
@@ -35,7 +35,7 @@ This project develops predictive models to identify customers likely to default 
 - **SQL**: Data extraction and business intelligence
 - **Pandas**: Data manipulation and feature engineering
 - **Scikit-learn**: Machine learning models and preprocessing
-- **Matplotlib/Seaborn**: Data visualization
+- **Matplotlib/Seaborn**: Data visualisation
 - **SQLite**: Database management
 
 ## 📈 Model Performance
@@ -59,13 +59,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn sqlite3
 
 1. Clone the repository
 2. Ensure `water_collections_demo.sqlite` is in the project directory
-3. Create an `images/` directory for saving visualizations
+3. Create an `images/` directory for saving visualisations
 4. Open `Predicting Customer Payment Default Risk.ipynb`
 5. Run all cells sequentially
 
-### 📸 Visualizations Successfully Added
+### 📸 Visualisations Successfully Added
 
-All visualization images have been generated and are now displayed in the README:
+All visualisation images have been generated and are now displayed in the README:
 
 **✅ Image Inventory:**
 
@@ -77,7 +77,7 @@ All visualization images have been generated and are now displayed in the README
 - `feature_importance.png` - Logistic regression coefficients showing key predictive features
 
 **🔄 To Update Images:**
-If you need to regenerate any visualization, run the corresponding cell in the notebook and save using:
+If you need to regenerate any visualisation, run the corresponding cell in the notebook and save using:
 
 ```python
 plt.savefig('images/[filename].png', dpi=300, bbox_inches='tight', facecolor='white')
@@ -86,7 +86,7 @@ plt.savefig('images/[filename].png', dpi=300, bbox_inches='tight', facecolor='wh
 ### Key Outputs
 
 - `predicted_at_risk_bills.csv`: Top 100 highest-risk bills with recommendations
-- `repeated_late_customers_12m.csv`: Chronic late payers for specialized programs
+- `repeated_late_customers_12m.csv`: Chronic late payers for specialised programmes
 
 ## 📋 Project Structure
 
@@ -95,7 +95,7 @@ plt.savefig('images/[filename].png', dpi=300, bbox_inches='tight', facecolor='wh
 ├── water_collections_demo.sqlite                   # Database file
 ├── predicted_at_risk_bills.csv                     # Model outputs
 ├── repeated_late_customers_12m.csv                 # Business intelligence
-├── images/                                         # Visualization outputs
+├── images/                                         # Visualisation outputs
 │   ├── target_distribution.png
 │   ├── customer_segmentation.png
 │   ├── bill_usage_analysis.png
@@ -121,7 +121,7 @@ plt.savefig('images/[filename].png', dpi=300, bbox_inches='tight', facecolor='wh
 
 - **Target Distribution**: Payment patterns and trends
 - **Customer Segmentation**: Risk analysis by demographics
-- **Payment Behavior**: Usage and billing analysis
+- **Payment Behaviour**: Usage and billing analysis
 - **Collections Effectiveness**: Action impact assessment
 
 ### 3. Model Development
@@ -143,16 +143,16 @@ plt.savefig('images/[filename].png', dpi=300, bbox_inches='tight', facecolor='wh
 
 - **Priority Interventions**: Focus on 100 highest-risk bills
 - **Targeted Outreach**: Differentiated strategies by risk score
-- **Process Optimization**: Leverage vulnerability flags and payment preferences
+- **Process Optimisation**: Leverage vulnerability flags and payment preferences
 
 ### Expected Benefits
 
 - **Reduced Bad Debt**: Early intervention on high-risk accounts
 - **Improved Cash Flow**: Faster payment issue resolution
 - **Enhanced Customer Experience**: Appropriate support for vulnerable customers
-- **Resource Optimization**: Focus efforts on highest-impact cases
+- **Resource Optimisation**: Focus efforts on highest-impact cases
 
-## 📊 Key Visualizations & Insights
+## 📊 Key Visualisations & Insights
 
 ### 1. Target Variable Distribution Analysis
 
@@ -189,7 +189,7 @@ The default rate is within industry norms but shows concerning upward trends tha
 
 **Business Recommendations:**
 
-- 🎯 **Targeted Programs**: Develop specialized support for <£15k income customers
+- 🎯 **Targeted Programmes**: Develop specialised support for <£15k income customers
 - 🌍 **Regional Strategies**: Deploy additional resources to high-risk regions
 - 🆘 **Vulnerability Support**: Enhanced payment plans for vulnerable customers
 - 💳 **Direct Debit Push**: Aggressive DD campaigns for high-risk segments
@@ -207,7 +207,7 @@ Clear risk stratification exists across customer segments, enabling precise targ
 
 - **Bill Amount Impact**: Higher quartile bills (Q4) show 11.2% default rate vs 6.8% for Q1
 - **Usage Correlation**: Higher usage customers tend to have higher default rates
-- **Payment Behavior**: Defaulted customers have mean bill £43.20 vs £41.30 for paid customers
+- **Payment Behaviour**: Defaulted customers have mean bill £43.20 vs £41.30 for paid customers
 - **Distribution Overlap**: Significant overlap suggests amount alone isn't predictive
 
 **Business Recommendations:**
@@ -222,26 +222,26 @@ While bill amount correlates with default risk, the relationship is complex and 
 
 ---
 
-### 4. Payment Behavior & Collections Effectiveness
+### 4. Payment Behaviour & Collections Effectiveness
 
 ![Collections Analysis](images/collections_analysis.png)
 
 **Key Insights:**
 
-- **Historical Behavior**: Customers with >50% previous default rate show 67% current default rate
+- **Historical Behaviour**: Customers with >50% previous default rate show 67% current default rate
 - **Collections Impact**: Reminders increase default rate (+8.2%), suggesting reactive rather than preventive use
 - **Payment Ratios**: Customers paying <50% of bills in 90 days show 45% default rate
 - **Feature Correlations**: Previous default rate (0.41) strongest predictor
 
 **Business Recommendations:**
 
-- 📈 **Predictive Targeting**: Use historical behavior as primary risk indicator
+- 📈 **Predictive Targeting**: Use historical behaviour as primary risk indicator
 - 📞 **Proactive Collections**: Shift from reactive to predictive collections approach
 - 💰 **Payment Monitoring**: Flag customers with declining payment ratios
 - 🔄 **Early Intervention**: Contact customers before they miss payments
 
 **Conclusions:**
-Past behavior is the strongest predictor of future defaults, enabling highly targeted interventions.
+Past behaviour is the strongest predictor of future defaults, enabling highly targeted interventions.
 
 ---
 
@@ -259,7 +259,7 @@ Past behavior is the strongest predictor of future defaults, enabling highly tar
 **Business Recommendations:**
 
 - 🎯 **Model Selection**: Use Logistic Regression for better risk discrimination
-- 📊 **Threshold Tuning**: Optimize probability thresholds for business objectives
+- 📊 **Threshold Tuning**: Optimise probability thresholds for business objectives
 - 🔍 **Feature Focus**: Invest in improving historical payment data quality
 - 📈 **Ensemble Approach**: Consider combining models for improved performance
 
@@ -275,7 +275,7 @@ Models provide meaningful lift over random selection, with Logistic Regression o
 **Key Insights:**
 
 - **Income <£15k**: Strongest positive predictor (highest default risk)
-- **Previous Default Rate**: Second strongest predictor, confirming historical behavior importance
+- **Previous Default Rate**: Second strongest predictor, confirming historical behaviour importance
 - **Direct Debit Preference**: Strong negative predictor (reduces default risk significantly)
 - **Income £50k+**: Strong negative predictor (lowest default risk)
 - **Bill Amount**: Moderate positive predictor (higher bills = higher risk)
@@ -298,7 +298,7 @@ The model clearly identifies income level and payment history as the dominant ri
 ### High-Impact Findings
 
 1. **Income is King**: Income level is the strongest demographic predictor
-2. **History Repeats**: Previous payment behavior dominates all other factors
+2. **History Repeats**: Previous payment behaviour dominates all other factors
 3. **Geographic Clustering**: Regional patterns suggest local economic factors
 4. **Seasonal Vulnerability**: Winter months require enhanced support
 
@@ -324,7 +324,7 @@ The model clearly identifies income level and payment history as the dominant ri
 - **A/B Testing**: Measure intervention effectiveness
 - **Customer Lifetime Value**: Extend to long-term value prediction
 
-## 📝 License
+## 📝 Licence
 
 This project is for educational and portfolio demonstration purposes.
 
