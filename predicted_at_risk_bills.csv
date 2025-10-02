@@ -1,0 +1,101 @@
+customer_id,bill_period_end,due_date,bill_amount,region,income_band,tariff,is_vulnerable,prefers_direct_debit,default_probability,recommended_action
+C100889,2025-10-31,2025-11-14,49.59,Reading,<£15k,Standard,0,0,0.9516149015553932,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101314,2025-11-30,2025-12-14,40.79,London - North,<£15k,Standard,0,0,0.9336537759875544,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100795,2025-12-31,2026-01-14,51.21,London - South,<£15k,Metered,0,0,0.9276777605746062,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100268,2025-12-31,2026-01-14,45.35,London - North,<£15k,Unmetered,1,0,0.9273356596140834,Priority: Vulnerability team referral + flexible payment plan
+C101167,2025-12-31,2026-01-14,45.24,Thames Valley,<£15k,Metered,1,0,0.9240106833107617,Priority: Vulnerability team referral + flexible payment plan
+C101104,2025-11-30,2025-12-14,37.38,London - North,<£15k,Low Income Social Tariff,0,0,0.9067266348425457,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100889,2025-11-30,2025-12-14,48.99,Reading,<£15k,Standard,0,0,0.8962377344845774,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101314,2025-12-31,2026-01-14,39.79,London - North,<£15k,Standard,0,0,0.8954209243068144,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101195,2025-11-30,2025-12-14,37.28,London - North,<£15k,Metered,0,0,0.8948965237497268,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100577,2025-10-31,2025-11-14,48.87,Thames Valley,<£15k,Standard,0,0,0.8941650227157059,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100821,2025-11-30,2025-12-14,45.73,Thames Valley,<£15k,Metered,0,0,0.8941467579351177,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100629,2025-10-31,2025-11-14,50.38,Swindon,<£15k,Standard,0,0,0.8925667174493588,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100795,2025-11-30,2025-12-14,40.23,London - South,<£15k,Metered,0,0,0.8921444156280683,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100184,2025-10-31,2025-11-14,49.13,Slough,<£15k,Standard,1,0,0.891519683011264,Priority: Vulnerability team referral + flexible payment plan
+C100598,2025-11-30,2025-12-14,49.34,Guildford,<£15k,Unmetered,1,0,0.8914099440601054,Priority: Vulnerability team referral + flexible payment plan
+C100845,2025-12-31,2026-01-14,50.17,Oxford,<£15k,Metered,1,0,0.8901267981275977,Priority: Vulnerability team referral + flexible payment plan
+C100795,2025-10-31,2025-11-14,34.5,London - South,<£15k,Metered,0,0,0.8886518452401453,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100845,2025-11-30,2025-12-14,43.43,Oxford,<£15k,Metered,1,0,0.8844860783599103,Priority: Vulnerability team referral + flexible payment plan
+C101310,2025-12-31,2026-01-14,35.85,London - South,<£15k,Metered,0,1,0.8832192202743483,High Risk: Immediate contact + payment arrangement
+C100814,2025-11-30,2025-12-14,45.38,London - North,£15k-£30k,Metered,0,0,0.8801427051222374,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101195,2025-10-31,2025-11-14,33.33,London - North,<£15k,Metered,0,0,0.8796275999871254,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100225,2025-12-31,2026-01-14,42.96,Oxford,<£15k,Metered,1,0,0.8793951577413837,Priority: Vulnerability team referral + flexible payment plan
+C100745,2025-11-30,2025-12-14,36.4,Thames Valley,<£15k,Metered,1,0,0.8793321041291663,Priority: Vulnerability team referral + flexible payment plan
+C100889,2025-12-31,2026-01-14,49.12,Reading,<£15k,Standard,0,0,0.8784087130546888,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100263,2025-11-30,2025-12-14,40.36,London - North,<£15k,Metered,0,0,0.8776520668775298,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100019,2025-10-31,2025-11-14,42.17,Reading,<£15k,Standard,1,0,0.8767478461698599,Priority: Vulnerability team referral + flexible payment plan
+C100237,2025-12-31,2026-01-14,52.17,Swindon,<£15k,Standard,0,0,0.8758101959774661,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100097,2025-12-31,2026-01-14,40.48,London - North,<£15k,Standard,0,1,0.8754325405978717,High Risk: Immediate contact + payment arrangement
+C100745,2025-12-31,2026-01-14,39.67,Thames Valley,<£15k,Metered,1,0,0.8699438204851595,Priority: Vulnerability team referral + flexible payment plan
+C100598,2025-12-31,2026-01-14,50.36,Guildford,<£15k,Unmetered,1,0,0.8696032419833016,Priority: Vulnerability team referral + flexible payment plan
+C100723,2025-10-31,2025-11-14,44.68,Guildford,<£15k,Metered,1,1,0.8684645617851785,Priority: Vulnerability team referral + flexible payment plan
+C101280,2025-12-31,2026-01-14,50.57,London - South,<£15k,Standard,0,0,0.8670728174780058,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100745,2025-10-31,2025-11-14,32.73,Thames Valley,<£15k,Metered,1,0,0.8622707935516737,Priority: Vulnerability team referral + flexible payment plan
+C101104,2025-12-31,2026-01-14,23.85,London - North,<£15k,Low Income Social Tariff,0,0,0.854620485983843,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100629,2025-12-31,2026-01-14,51.42,Swindon,<£15k,Standard,0,0,0.8543132838286567,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100144,2025-12-31,2026-01-14,32.58,Thames Valley,<£15k,Low Income Social Tariff,0,1,0.8511587059638516,High Risk: Immediate contact + payment arrangement
+C101078,2025-10-31,2025-11-14,49.29,Reading,<£15k,Standard,1,0,0.8496545461627273,Priority: Vulnerability team referral + flexible payment plan
+C100268,2025-11-30,2025-12-14,37.38,London - North,<£15k,Unmetered,1,0,0.8495926553776179,Priority: Vulnerability team referral + flexible payment plan
+C101313,2025-12-31,2026-01-14,32.76,London - North,<£15k,Metered,0,0,0.8476498962321618,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101083,2025-12-31,2026-01-14,51.2,Swindon,<£15k,Standard,1,0,0.8465822025997157,Priority: Vulnerability team referral + flexible payment plan
+C100577,2025-11-30,2025-12-14,44.54,Thames Valley,<£15k,Standard,0,0,0.8453151980442669,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100019,2025-11-30,2025-12-14,27.95,Reading,<£15k,Standard,1,0,0.8430508974201797,Priority: Vulnerability team referral + flexible payment plan
+C100501,2025-12-31,2026-01-14,50.97,Oxford,£15k-£30k,Metered,0,0,0.8414351192784031,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100016,2025-12-31,2026-01-14,45.0,Thames Valley,<£15k,Unmetered,1,0,0.8383991539489408,Priority: Vulnerability team referral + flexible payment plan
+C100628,2025-12-31,2026-01-14,41.42,Thames Valley,<£15k,Metered,1,0,0.8363938545684586,Priority: Vulnerability team referral + flexible payment plan
+C100741,2025-12-31,2026-01-14,46.41,London - North,<£15k,Standard,0,1,0.836364865178225,High Risk: Immediate contact + payment arrangement
+C101386,2025-12-31,2026-01-14,44.28,Slough,<£15k,Standard,1,0,0.835735295937002,Priority: Vulnerability team referral + flexible payment plan
+C100228,2025-12-31,2026-01-14,47.9,Reading,<£15k,Metered,0,0,0.8350539831860597,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100820,2025-10-31,2025-11-14,36.76,London - North,<£15k,Metered,1,0,0.8331891815693265,Priority: Vulnerability team referral + flexible payment plan
+C100119,2025-11-30,2025-12-14,45.4,Reading,<£15k,Standard,1,0,0.8313798421563469,Priority: Vulnerability team referral + flexible payment plan
+C100184,2025-11-30,2025-12-14,48.98,Slough,<£15k,Standard,1,0,0.8306574043833849,Priority: Vulnerability team referral + flexible payment plan
+C101310,2025-11-30,2025-12-14,36.86,London - South,<£15k,Metered,0,1,0.8305535107970359,High Risk: Immediate contact + payment arrangement
+C101415,2025-11-30,2025-12-14,45.98,Swindon,<£15k,Metered,0,0,0.8288410093526485,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100120,2025-12-31,2026-01-14,34.24,Thames Valley,<£15k,Standard,1,0,0.8276220261907473,Priority: Vulnerability team referral + flexible payment plan
+C100184,2025-12-31,2026-01-14,51.36,Slough,<£15k,Standard,1,0,0.827032352327046,Priority: Vulnerability team referral + flexible payment plan
+C100728,2025-12-31,2026-01-14,43.91,Thames Valley,<£15k,Metered,0,0,0.82449542903782,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101084,2025-10-31,2025-11-14,34.97,Guildford,<£15k,Metered,0,0,0.8243283327327325,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101067,2025-10-31,2025-11-14,39.53,Reading,<£15k,Metered,0,0,0.824065224509834,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101104,2025-10-31,2025-11-14,31.01,London - North,<£15k,Low Income Social Tariff,0,0,0.8225366934058925,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100532,2025-12-31,2026-01-14,50.14,London - South,£15k-£30k,Metered,0,0,0.8224658014208868,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100508,2025-10-31,2025-11-14,41.5,Thames Valley,<£15k,Metered,0,0,0.8138602682254413,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100629,2025-11-30,2025-12-14,51.31,Swindon,<£15k,Standard,0,0,0.8133399309105925,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100571,2025-12-31,2026-01-14,33.33,Swindon,£15k-£30k,Standard,0,0,0.8114003086813254,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100977,2025-11-30,2025-12-14,39.27,London - South,<£15k,Standard,1,0,0.8106930534963512,Priority: Vulnerability team referral + flexible payment plan
+C101431,2025-10-31,2025-11-14,28.98,Reading,<£15k,Low Income Social Tariff,0,0,0.8092965510136525,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100090,2025-10-31,2025-11-14,38.87,London - North,<£15k,Low Income Social Tariff,1,0,0.8089658342511112,Priority: Vulnerability team referral + flexible payment plan
+C100820,2025-11-30,2025-12-14,37.63,London - North,<£15k,Metered,1,0,0.80844732991272,Priority: Vulnerability team referral + flexible payment plan
+C100821,2025-10-31,2025-11-14,32.44,Thames Valley,<£15k,Metered,0,0,0.8082013337471269,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100163,2025-12-31,2026-01-14,40.85,London - North,<£15k,Metered,0,0,0.8078594128381199,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100357,2025-12-31,2026-01-14,45.2,Swindon,£15k-£30k,Metered,0,0,0.805904672720969,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100926,2025-12-31,2026-01-14,38.83,London - North,<£15k,Metered,0,0,0.804679045795873,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101167,2025-11-30,2025-12-14,39.23,Thames Valley,<£15k,Metered,1,0,0.8044103619860723,Priority: Vulnerability team referral + flexible payment plan
+C101407,2025-11-30,2025-12-14,48.62,London - North,<£15k,Standard,0,0,0.8033061462849693,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101195,2025-12-31,2026-01-14,29.13,London - North,<£15k,Metered,0,0,0.8031949193409379,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100340,2025-11-30,2025-12-14,48.54,London - North,<£15k,Standard,0,1,0.8021850289979595,High Risk: Immediate contact + payment arrangement
+C100508,2025-11-30,2025-12-14,43.99,Thames Valley,<£15k,Metered,0,0,0.8011338856648974,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101314,2025-10-31,2025-11-14,32.78,London - North,<£15k,Standard,0,0,0.8004682724640629,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100912,2025-11-30,2025-12-14,45.84,Oxford,£15k-£30k,Low Income Social Tariff,0,0,0.798728195109222,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100052,2025-11-30,2025-12-14,47.13,Swindon,£15k-£30k,Metered,0,0,0.7972881945063357,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101389,2025-12-31,2026-01-14,44.45,London - North,<£15k,Metered,1,1,0.7964496468027795,Priority: Vulnerability team referral + flexible payment plan
+C100119,2025-12-31,2026-01-14,34.23,Reading,<£15k,Standard,1,0,0.7957894766054089,Priority: Vulnerability team referral + flexible payment plan
+C101374,2025-11-30,2025-12-14,38.41,Guildford,<£15k,Metered,1,0,0.7955566036047551,Priority: Vulnerability team referral + flexible payment plan
+C101219,2025-12-31,2026-01-14,45.26,London - North,£15k-£30k,Metered,1,0,0.795378851403951,Priority: Vulnerability team referral + flexible payment plan
+C101424,2025-10-31,2025-11-14,41.85,London - South,<£15k,Metered,0,0,0.7952059704529076,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100399,2025-12-31,2026-01-14,43.96,Thames Valley,<£15k,Metered,0,0,0.7952048967192104,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100019,2025-12-31,2026-01-14,32.67,Reading,<£15k,Standard,1,0,0.7947121602626059,Priority: Vulnerability team referral + flexible payment plan
+C100510,2025-11-30,2025-12-14,36.3,London - North,<£15k,Unmetered,0,0,0.7944640400721169,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100893,2025-12-31,2026-01-14,35.39,London - North,<£15k,Metered,1,0,0.794089017966412,Priority: Vulnerability team referral + flexible payment plan
+C100723,2025-11-30,2025-12-14,43.19,Guildford,<£15k,Metered,1,1,0.7930527028439438,Priority: Vulnerability team referral + flexible payment plan
+C101418,2025-11-30,2025-12-14,49.64,Oxford,<£15k,Standard,0,1,0.7913722965506235,High Risk: Immediate contact + payment arrangement
+C101482,2025-12-31,2026-01-14,35.76,Thames Valley,<£15k,Metered,0,0,0.7896024636391291,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101424,2025-12-31,2026-01-14,45.68,London - South,<£15k,Metered,0,0,0.789278174211592,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100052,2025-10-31,2025-11-14,38.38,Swindon,£15k-£30k,Metered,0,0,0.7889869222129139,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100569,2025-10-31,2025-11-14,39.78,Thames Valley,£15k-£30k,Standard,0,0,0.7889632052231657,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101078,2025-11-30,2025-12-14,50.42,Reading,<£15k,Standard,1,0,0.7884215700137289,Priority: Vulnerability team referral + flexible payment plan
+C100117,2025-12-31,2026-01-14,48.74,Slough,£15k-£30k,Metered,0,0,0.7881654408179403,High Risk: Immediate contact + Direct Debit setup + payment plan
+C101213,2025-12-31,2026-01-14,50.61,London - South,<£15k,Standard,0,0,0.7878817170604375,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100163,2025-10-31,2025-11-14,39.96,London - North,<£15k,Metered,0,0,0.7878463087680577,High Risk: Immediate contact + Direct Debit setup + payment plan
+C100977,2025-12-31,2026-01-14,33.94,London - South,<£15k,Standard,1,0,0.786645005996463,Priority: Vulnerability team referral + flexible payment plan
+C100946,2025-10-31,2025-11-14,48.6,Slough,<£15k,Standard,0,0,0.7855917981340551,High Risk: Immediate contact + Direct Debit setup + payment plan
